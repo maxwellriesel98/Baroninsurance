@@ -12,13 +12,13 @@ function App() {
     <div className="App bodycolor">
       <Header />
       <Routes>
-        <Route path="/" element=<h1> Home</h1> />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage/>} />
-        <Route path="/industrylinks" element=<h1>industry Links</h1> />
-        <Route path="/services" element=<h1> Services</h1> />
-        <Route path="/contact" element=<h1>contact</h1> />
-        <Route path="/success" element=<h1>success</h1>/>
-        <Route path="/failure" element=<h1>failure</h1>/>
+        <Route path="/industrylinks" element={<IndustryPage/>} />
+        <Route path="/services" element={<ServicesPage/>} />
+        <Route path="/contact" element={<ContactPage/>} />
+        <Route path="/success" element={<SentPage title="Message Sent!" message="We will get back to you shortly! have a great day!"/>}/>
+        <Route path="/failure" element={<SentPage title="Failed to Send..." message="We apologize for the inconvenience, Please call us or email us instead, details under  ''Contact us'' "/>}/>
       </Routes>
       <Footer />
     </div>
