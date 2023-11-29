@@ -6,6 +6,7 @@ import image1 from "../images/authEfile.jpg";
 import image2 from "../images/black guy taxes.jpg";
 import image3 from "../images/Family.jpeg";
 import image4 from "../images/PFP.JPG"
+import image5 from "../images/taxcredit.jpg"
 import crest from "../BaronCrest.jpeg";
 
 function HomePage() {
@@ -16,6 +17,7 @@ function HomePage() {
         image2={image2}
         image3={image3}
         image4={image4}
+        image5={image5}
 
       />
       <BodyImageRight
