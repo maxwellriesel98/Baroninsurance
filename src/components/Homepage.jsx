@@ -1,4 +1,5 @@
 import React from "react";
+import MyCarousel from "./Carousel";
 import BodyImageRight from "./BodyImageRight";
 import BodyImageLeft from "./BodyImageLeft";
 import image1 from "../images/authEfile.jpg";
@@ -10,6 +11,13 @@ import crest from "../BaronCrest.jpeg";
 function HomePage() {
   return (
     <div>
+     <MyCarousel
+        image1={image1}
+        image2={image2}
+        image3={image3}
+        image4={image4}
+
+      />
       <BodyImageRight
         ImageRight={
           <img
