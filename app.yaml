@@ -4,8 +4,8 @@ runtime: nodejs20
 
 handlers:
   - url: /(.*)
-    static_files: build/index.js
-    upload: build/index.js
+    static_files: build/index.html
+    upload: build/index.html
     secure: always
 
   - url: /
