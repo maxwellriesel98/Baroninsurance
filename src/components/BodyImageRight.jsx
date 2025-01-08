@@ -10,10 +10,10 @@ function BodyImageRight(props) {
         </div>
         <div className="col-lg-6  col-sm-6">
           <h1 className="fst-italic titlefont display-5 fw-light text-light lh-1 mb-3">
-            {props.title1}
+            {props.title}
           </h1>
           <p className="text-light lead">
-            {props.par1}
+            {props.par}
           </p>
         </div>
       </div>

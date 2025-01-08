@@ -95,11 +95,7 @@ function ContactPage() {
         </form>
       </div>
       
-      <Filler />
-      <Filler />
-      <Filler />
-      <Filler />
-
+   
     </div>
   );
 }
