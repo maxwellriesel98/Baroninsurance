@@ -1,13 +1,13 @@
 # [START app_yaml]
 runtime: nodejs20
-service: baroninsuranceandtaxagency # prefix/subdomain of the bucket specific to project and environment
+#service: baroninsuranceandtaxagency # prefix/subdomain of the bucket specific to project and environment
 
 handlers:
   - url: /(.*)
     static_files: build/index.js
     upload: build/index.js
     secure: always
-    
+
   - url: /
     static_dir: build
 # [END app_yaml]
