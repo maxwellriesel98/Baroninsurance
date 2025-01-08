@@ -1,6 +1,6 @@
 # [START app_yaml]
 runtime: nodejs20
-#service: baroninsuranceandtaxagency # prefix/subdomain of the bucket specific to project and environment
+service: baroninsuranceandtaxagency # prefix/subdomain of the bucket specific to project and environment
 
 handlers:
   - url: /(.*)
